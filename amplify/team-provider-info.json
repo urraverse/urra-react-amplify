@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-urrafinancialweb10-staging-203054-authRole",
+      "UnauthRoleArn": "arn:aws:iam::387430174167:role/amplify-urrafinancialweb10-staging-203054-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::387430174167:role/amplify-urrafinancialweb10-staging-203054-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-urrafinancialweb10-staging-203054-deployment",
+      "UnauthRoleName": "amplify-urrafinancialweb10-staging-203054-unauthRole",
+      "StackName": "amplify-urrafinancialweb10-staging-203054",
+      "StackId": "arn:aws:cloudformation:us-east-1:387430174167:stack/amplify-urrafinancialweb10-staging-203054/d2ef6950-2997-11ee-a633-0e9a2d3d266f",
+      "AmplifyAppId": "du97881u2qppf"
+    }
+  }
+}
