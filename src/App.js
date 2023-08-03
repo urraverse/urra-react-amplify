@@ -1,17 +1,27 @@
 import React from 'react';
-import './App.css';
-import NavBar from './components/NavBar';
+import GlobalStyle from './globalStyles';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
 
+//Pages
+import Home from './pages/Home';
+import SignUp from './pages/SignupPage';
+import Pricing from './pages/PricingPage';
+import Footer from './components/Footer/Footer';
 
-
-const App = () => 
-{
-  return (
-    <div className="App">
-      <NavBar />
-      <div className='bg-emerald-500 w-full h-screen'></div>
-    </div>
-  );
+function App() {
+	return (
+		<Router>
+			<GlobalStyle />
+			<Navbar />
+			<Switch>
+				<Route path="/" exact component={Home} />
+				<Route path="/signup" exact component={SignUp} />
+				<Route path="/pricing" exact component={Pricing} />
+			</Switch>
+			<Footer />
+		</Router>
+	);
 }
 
 export default App;
